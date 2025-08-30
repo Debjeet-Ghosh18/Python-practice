@@ -1,9 +1,4 @@
-# n=10
-# m=5
-# print("the addition of n & m is ",n+m)
-# print("the multiplication of n & m is ",n*m)
-# print("The Substraction of n & m is ", n-m)
-# print("The division of n & m is ", n/m)
+
 
 
 # n = 15
@@ -25,18 +20,22 @@
 #with alt + mouse lesft click we can select
 
 
-x= float(input("Enter the value of x\n"))
-y=float(input("Enter the value of y\n"))
+# Basic arithmetic operations example
 
-operation =(input("Enter the operation which you want to perform (+,-,*,/)\n"))
+# Take input values
+x = float(input("Enter the value of x\n"))
+y = float(input("Enter the value of y\n"))
 
+# Ask user which operation to perform
+operation = input("Enter the operation which you want to perform (+,-,*,/)\n")
+
+# Perform operation based on user choice
 if operation == '+':
-    print("The sum of x and y is\n",x+y)
+    print("The sum of x and y is\n", x+y)
 elif operation == '-':
-    print("The substraction of x and y is\n",x-y)
+    print("The subtraction of x and y is\n", x-y)
 elif operation == '*':
-    print("The Multiplication of x and y is\n",x*y)
+    print("The multiplication of x and y is\n", x*y)
 elif operation == '/':
-    print("The Division of x and y is\n",x/y)
-
+    print("The division of x and y is\n", x/y)
 
