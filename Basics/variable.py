@@ -16,3 +16,12 @@ name2 = '''Debjeet'''
 print(name0)
 print(name1)
 print(name2)
+
+
+# Boolean Data type
+
+old = False
+hello = None
+
+print(type(old))
+print(type(hello))
