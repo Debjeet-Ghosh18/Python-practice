@@ -22,9 +22,10 @@
 # print("Sweet") if food =="Jalebi" or food == "Rosogolla" else print("Not Sweet")
 
 age = int(input("Enter your age: "))
-vote = ("no","yes") [age>18]
+vote = ("Yes","No") [age<18]
 print("Eligible to vote:", vote)
 
-
-
+sal = float(input("Enter you salary: "))
+tax = sal*(0.2,0.3) [sal>50000]
+print("your tax will be ",tax)
 
