@@ -13,6 +13,10 @@
 
 # Second Practice Question
 
-food = input("Food:")
-eat = "yes" if food == "cake" else "no"
-print(eat)
+# food = input("Food:")
+# eat = "yes" if food == "cake" else "no"
+# print(eat)
+
+
+food = input("food:")
+print("Sweet") if food =="Jalebi" or food == "Rodogolla" else print("Not Sweet")
