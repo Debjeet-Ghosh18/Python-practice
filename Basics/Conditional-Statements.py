@@ -18,5 +18,13 @@
 # print(eat)
 
 
-food = input("food:")
-print("Sweet") if food =="Jalebi" or food == "Rodogolla" else print("Not Sweet")
+# food = input("food:")
+# print("Sweet") if food =="Jalebi" or food == "Rosogolla" else print("Not Sweet")
+
+age = int(input("Enter your age: "))
+vote = ("no","yes") [age>18]
+print("Eligible to vote:", vote)
+
+
+
+
