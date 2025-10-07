@@ -7,3 +7,7 @@ si =(a*b*c)/100
 print("The simple Interest is: ",si)
 
 
+
+
+
+
