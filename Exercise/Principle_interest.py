@@ -26,3 +26,24 @@ print("The simple Interest is: ",si)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
