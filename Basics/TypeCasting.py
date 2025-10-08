@@ -22,3 +22,7 @@ print(type(b))
 c = a + b
 print(c)
 print(type(c))
+
+
+d = "5"
+print(type(d))
