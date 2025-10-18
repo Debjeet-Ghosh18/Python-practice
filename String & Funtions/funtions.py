@@ -20,3 +20,5 @@ print(str.find("mhghgkh"))
 # Count Funtion
 count = str.count("e")
 print(count)
+
+

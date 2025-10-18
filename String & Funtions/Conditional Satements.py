@@ -5,6 +5,7 @@ if(age>18):
 else:
     print("You can not vote")
 
+#Indentation means proper Spacing
 
 color = input("Enter the color oof traffic light: ")
 
