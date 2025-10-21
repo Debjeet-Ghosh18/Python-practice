@@ -22,11 +22,20 @@ dic = {
 
 ## items method return all (key,values) as pair as tuple
 
-
 print((dic.items()))
 print(list(dic.items()))
 pair = list(dic.items())
 print(pair[1])
+
+
+
+### get method is used for returns key according to value
+
+
+
+
+
+
 
 
 
