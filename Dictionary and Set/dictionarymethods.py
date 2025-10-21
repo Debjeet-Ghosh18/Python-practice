@@ -7,8 +7,16 @@ dic = {
     "Berozger": True
     }
 
+### keys methods(it is used to return all the key values)
+
 print(dic.keys())
 print(list(dic.keys()))
 print(len(list(dic.keys())))
 print(dic.keys())
-print(dic)
+
+### Values methods it is used to return all the values in the dictionary
+
+print(dic.values())
+print(tuple(dic.values()))
+print(list(dic.values()))
+
