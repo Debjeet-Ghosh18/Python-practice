@@ -19,3 +19,19 @@
 #     i += 1
 
 
+# 4.Print the elements of the following list using a loop:[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# i = 1
+# while i <=10:
+#     print(i*i)
+#     i +=1
+    
+
+# 5.Search for a number x in this tuple using a loop:(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+tuple = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+print(tuple.index(1))
+
+
+
