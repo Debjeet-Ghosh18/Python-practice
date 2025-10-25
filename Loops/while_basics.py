@@ -4,8 +4,6 @@ while count<=5:
     count = count + 1
 print(count)
 
-
-
 i = 1
 while i<=5:
     print(i)
@@ -16,4 +14,5 @@ while i>0:
     print(i)
     i -= 1
 
-print("Loop Ended")
+print("Loop")
+
