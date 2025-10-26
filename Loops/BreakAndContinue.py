@@ -19,14 +19,29 @@
 #         print("Finding")
 #         i += 1
 
+# j=0
+# while j <= 5:
+#     if(j==3):
+#         j+=1
+#         continue # It acts as skip
+#     print(j)
+#     j+=1
+
 j=0
-while j <= 5:
-    if(j==3):
+while j <= 20:
+    if(j%2==0):
         j+=1
         continue # It acts as skip
     print(j)
     j+=1
 
+j=0
+while j <= 20:
+    if(j%2!=0):
+        j+=1
+        continue # It acts as skip
+    print(j)
+    j+=1
 
 
 
