@@ -23,6 +23,11 @@ print(output)
 
 def avg_number(a,b,c):
     avg= (a+b+c)/3
+    print(avg)
     return avg
-avg = avg_number(5,5,5)
-print(avg)
+avg_number(5,5,5)
+
+print("Debjeet",end="#")
+print("Ghosh")
+
+
