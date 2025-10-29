@@ -10,3 +10,5 @@ for hello in names:
 
 for char in hello:
     print(char)
+else:
+    print("End")
