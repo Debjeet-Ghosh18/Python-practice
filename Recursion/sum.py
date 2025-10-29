@@ -18,3 +18,5 @@ def print_list(list,indx=0):
 players = ["Vk","RS","MSD"]
 
 print_list(players)
+
+
