@@ -1,5 +1,7 @@
 data = open(r"C:\Users\HP\OneDrive\Desktop\Python Program\File Hadling\demo.txt","r")
-content = data.read()
+# line1 = data.readline()
+# print(line1)
+content = data.read(5)
 print(content)
 print(type(content))
 data.close()
