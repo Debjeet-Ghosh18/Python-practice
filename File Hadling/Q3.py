@@ -11,6 +11,10 @@ for i in range(len(data)):
         num += data[i]
 
 nums = data.split(",")
-print(nums)
+count = 0
+for val in nums:
+    if(int(val) % 2 == 0):
+        count += 1
+print(count)
 
 
