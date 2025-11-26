@@ -8,17 +8,15 @@ class Student:
     def __init__(self,name,marks):
         self.name = name
         self.marks = marks
-        print("Adding new student in Database")
+        
+    def welcome(self):
+        print("Welcome",self.name)
+
+    def get_marks(self):
+        return self.marks
+
 
 S1 = Student("Debjeet",85)
-print(S1.name,S1.marks)
+S1.welcome()
+print(S1.get_marks())
 
-S2 = Student("Ghosh",75)
-print(S2.name,S2.marks)
-
-# class Car:
-#     color = "Blue"
-#     brand = "BMW"
-# C1 = Car()
-# print(C1.color)
-# print(C1.brand)
