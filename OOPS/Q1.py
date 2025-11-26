@@ -11,4 +11,7 @@ class Student:
         print("Hi",self.name,"your avg score is:",sum/3)
 
 s1 = Student("Debjeet",[60,70,80])
-s1.get_avg()        
+s1.get_avg()     
+
+s1.name = "Ghosh"
+s1.get_avg()
