@@ -13,11 +13,14 @@ print(acc1.reset_pass())
 class Person:
     __name = "anonymous"
 
-    def __hello():
+    def __hello(self):
         print("Hello Person")
+
+    def welcome(self):
+        self.__hello()
 
 p1 = Person()
 
-print(p1.__name)
-print(p1.__hello())
+# print(p1.__name) #Private
+print(p1.welcome())
 
