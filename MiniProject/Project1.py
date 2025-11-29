@@ -1,4 +1,4 @@
-## GUESS THE CORRECT NUMBER
+### GUESS THE CORRECT NUMBER
 
 import random
 
